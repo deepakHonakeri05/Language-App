@@ -21,5 +21,19 @@ public class Word {
         mResourceID = imageResourceID;
     }
 
+    public String getMiwokText()
+    {
+        return mMiwokText;
+    }
+
+    public String getEnglishText()
+    {
+        return mEnglishText;
+    }
+
+    public int getImage()
+    {
+        return mResourceID;
+    }
 
 }
